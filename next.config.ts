@@ -16,6 +16,9 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH;
 const nextConfig: NextConfig = {
   basePath,
   compress: isProd,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   experimental: {
     optimizePackageImports: [
       'emoji-mart',
@@ -27,9 +30,6 @@ const nextConfig: NextConfig = {
     ],
     webVitalsAttribution: ['CLS', 'LCP'],
     webpackMemoryOptimizations: true,
-    eslint: {
-      ignoreDuringBuilds: true,
-    },
   },
   async headers() {
     return [
