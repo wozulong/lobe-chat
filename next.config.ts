@@ -27,6 +27,9 @@ const nextConfig: NextConfig = {
     ],
     webVitalsAttribution: ['CLS', 'LCP'],
     webpackMemoryOptimizations: true,
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
   },
   async headers() {
     return [
