@@ -371,9 +371,6 @@
   "abab6.5t-chat": {
     "description": "Tối ưu hóa cho các tình huống đối thoại bằng tiếng Trung, cung cấp khả năng sinh đối thoại mượt mà và phù hợp với thói quen diễn đạt tiếng Trung."
   },
-  "abab7-chat-preview": {
-    "description": "So với các mô hình trong series abab6.5, khả năng xử lý văn bản dài, toán học, viết lách, v.v. đã được cải thiện đáng kể."
-  },
   "accounts/fireworks/models/deepseek-r1": {
     "description": "DeepSeek-R1 là một mô hình ngôn ngữ lớn tiên tiến, được tối ưu hóa thông qua học tăng cường và dữ liệu khởi động lạnh, có hiệu suất suy luận, toán học và lập trình xuất sắc."
   },
@@ -728,6 +725,9 @@
   "gemini-1.0-pro-latest": {
     "description": "Gemini 1.0 Pro là mô hình AI hiệu suất cao của Google, được thiết kế để mở rộng cho nhiều nhiệm vụ."
   },
+  "gemini-1.5-flash": {
+    "description": "Gemini 1.5 Flash là mô hình AI đa phương thức mới nhất của Google, có khả năng xử lý nhanh, hỗ trợ đầu vào văn bản, hình ảnh và video, phù hợp cho việc mở rộng hiệu quả cho nhiều nhiệm vụ."
+  },
   "gemini-1.5-flash-001": {
     "description": "Gemini 1.5 Flash 001 là một mô hình đa phương thức hiệu quả, hỗ trợ mở rộng cho nhiều ứng dụng."
   },
@@ -767,23 +767,14 @@
   "gemini-2.0-flash-001": {
     "description": "Gemini 2.0 Flash cung cấp các tính năng và cải tiến thế hệ tiếp theo, bao gồm tốc độ vượt trội, sử dụng công cụ bản địa, tạo đa phương tiện và cửa sổ ngữ cảnh 1M token."
   },
-  "gemini-2.0-flash-exp": {
-    "description": "Gemini 2.0 Flash Exp là mô hình AI đa phương thức thử nghiệm mới nhất của Google, có các tính năng thế hệ tiếp theo, tốc độ vượt trội, khả năng gọi công cụ nguyên bản và tạo ra đa phương thức."
-  },
   "gemini-2.0-flash-lite-preview-02-05": {
     "description": "Một mô hình Gemini 2.0 Flash được tối ưu hóa cho hiệu quả chi phí và độ trễ thấp."
   },
   "gemini-2.0-flash-thinking-exp-01-21": {
     "description": "Gemini 2.0 Flash Exp là mô hình AI đa phương thức thử nghiệm mới nhất của Google, sở hữu các tính năng thế hệ tiếp theo, tốc độ vượt trội, gọi công cụ bản địa và sinh ra đa phương thức."
   },
-  "gemini-2.0-flash-thinking-exp-1219": {
-    "description": "Gemini 2.0 Flash Exp là mô hình AI đa phương thức thử nghiệm mới nhất của Google, với các tính năng thế hệ tiếp theo, tốc độ vượt trội, gọi công cụ bản địa và tạo ra đa phương thức."
-  },
   "gemini-2.0-pro-exp-02-05": {
     "description": "Gemini 2.0 Pro Experimental là mô hình AI đa phương tiện thử nghiệm mới nhất của Google, có sự cải thiện chất lượng nhất định so với các phiên bản trước, đặc biệt là về kiến thức thế giới, mã và ngữ cảnh dài."
-  },
-  "gemini-exp-1206": {
-    "description": "Gemini Exp 1206 là mô hình AI đa phương tiện thử nghiệm mới nhất của Google, có sự cải thiện về chất lượng so với các phiên bản trước."
   },
   "gemma-7b-it": {
     "description": "Gemma 7B phù hợp cho việc xử lý các nhiệm vụ quy mô vừa và nhỏ, đồng thời mang lại hiệu quả chi phí."
@@ -1042,6 +1033,9 @@
   },
   "jina-deepsearch-v1": {
     "description": "Tìm kiếm sâu kết hợp tìm kiếm trên mạng, đọc và suy luận, có thể thực hiện điều tra toàn diện. Bạn có thể coi nó như một đại lý, nhận nhiệm vụ nghiên cứu của bạn - nó sẽ thực hiện tìm kiếm rộng rãi và qua nhiều lần lặp lại trước khi đưa ra câu trả lời. Quá trình này liên quan đến nghiên cứu liên tục, suy luận và giải quyết vấn đề từ nhiều góc độ. Điều này khác biệt hoàn toàn với việc tạo ra câu trả lời trực tiếp từ dữ liệu đã được huấn luyện trước của các mô hình lớn tiêu chuẩn và các hệ thống RAG truyền thống dựa vào tìm kiếm bề mặt một lần."
+  },
+  "kimi-latest": {
+    "description": "Sản phẩm trợ lý thông minh Kimi sử dụng mô hình lớn Kimi mới nhất, có thể chứa các tính năng chưa ổn định. Hỗ trợ hiểu hình ảnh, đồng thời tự động chọn mô hình 8k/32k/128k làm mô hình tính phí dựa trên độ dài ngữ cảnh yêu cầu."
   },
   "learnlm-1.5-pro-experimental": {
     "description": "LearnLM là một mô hình ngôn ngữ thử nghiệm, chuyên biệt cho các nhiệm vụ, được đào tạo để tuân theo các nguyên tắc khoa học học tập, có thể tuân theo các chỉ dẫn hệ thống trong các tình huống giảng dạy và học tập, đóng vai trò như một người hướng dẫn chuyên gia."
@@ -1358,6 +1352,9 @@
   "moonshot-v1-8k-vision-preview": {
     "description": "Mô hình hình ảnh Kimi (bao gồm moonshot-v1-8k-vision-preview/moonshot-v1-32k-vision-preview/moonshot-v1-128k-vision-preview, v.v.) có khả năng hiểu nội dung hình ảnh, bao gồm văn bản hình ảnh, màu sắc hình ảnh và hình dạng vật thể."
   },
+  "moonshot-v1-auto": {
+    "description": "Moonshot V1 Auto có thể chọn mô hình phù hợp dựa trên số lượng Tokens hiện tại đang chiếm dụng trong ngữ cảnh."
+  },
   "nousresearch/hermes-2-pro-llama-3-8b": {
     "description": "Hermes 2 Pro Llama 3 8B là phiên bản nâng cấp của Nous Hermes 2, bao gồm bộ dữ liệu phát triển nội bộ mới nhất."
   },
@@ -1579,6 +1576,9 @@
   },
   "sonar-reasoning": {
     "description": "Sản phẩm API mới được hỗ trợ bởi mô hình suy luận của DeepSeek."
+  },
+  "sonar-reasoning-pro": {
+    "description": "Sản phẩm API mới được hỗ trợ bởi mô hình suy diễn DeepSeek."
   },
   "step-1-128k": {
     "description": "Cân bằng hiệu suất và chi phí, phù hợp cho các tình huống chung."

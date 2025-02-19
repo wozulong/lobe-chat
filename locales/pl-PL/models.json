@@ -371,9 +371,6 @@
   "abab6.5t-chat": {
     "description": "Optymalizowany do scenariuszy dialogowych w języku chińskim, oferujący płynne i zgodne z chińskimi zwyczajami generowanie dialogów."
   },
-  "abab7-chat-preview": {
-    "description": "W porównaniu do modeli z serii abab6.5, zdolności w zakresie długich tekstów, matematyki i pisania uległy znacznej poprawie."
-  },
   "accounts/fireworks/models/deepseek-r1": {
     "description": "DeepSeek-R1 to zaawansowany model językowy, który został zoptymalizowany dzięki uczeniu przez wzmocnienie i danym z zimnego startu, oferując doskonałe możliwości wnioskowania, matematyki i programowania."
   },
@@ -728,6 +725,9 @@
   "gemini-1.0-pro-latest": {
     "description": "Gemini 1.0 Pro to model AI o wysokiej wydajności od Google, zaprojektowany do szerokiego rozszerzania zadań."
   },
+  "gemini-1.5-flash": {
+    "description": "Gemini 1.5 Flash to najnowszy model AI wielomodalnego od Google, charakteryzujący się szybkim przetwarzaniem, obsługujący wejścia tekstowe, obrazowe i wideo, idealny do efektywnego rozszerzania w różnych zadaniach."
+  },
   "gemini-1.5-flash-001": {
     "description": "Gemini 1.5 Flash 001 to wydajny model multimodalny, wspierający szerokie zastosowania."
   },
@@ -767,23 +767,14 @@
   "gemini-2.0-flash-001": {
     "description": "Gemini 2.0 Flash oferuje funkcje i ulepszenia nowej generacji, w tym doskonałą prędkość, natywne korzystanie z narzędzi, generowanie multimodalne oraz okno kontekstowe o długości 1M tokenów."
   },
-  "gemini-2.0-flash-exp": {
-    "description": "Gemini 2.0 Flash Exp to najnowszy eksperymentalny model AI o wielu modalnościach od Google, który oferuje cechy nowej generacji, doskonałą prędkość, natywne wywołania narzędzi oraz generowanie multimodalne."
-  },
   "gemini-2.0-flash-lite-preview-02-05": {
     "description": "Model Gemini 2.0 Flash, zoptymalizowany pod kątem efektywności kosztowej i niskiej latencji."
   },
   "gemini-2.0-flash-thinking-exp-01-21": {
     "description": "Gemini 2.0 Flash Exp to najnowszy eksperymentalny model AI multimodalnego Google, posiadający cechy nowej generacji, doskonałą prędkość, natywne wywołania narzędzi oraz generację multimodalną."
   },
-  "gemini-2.0-flash-thinking-exp-1219": {
-    "description": "Gemini 2.0 Flash Exp to najnowszy eksperymentalny model AI multimodalnego Google, oferujący funkcje nowej generacji, doskonałą prędkość, natywne wywołania narzędzi oraz generację multimodalną."
-  },
   "gemini-2.0-pro-exp-02-05": {
     "description": "Gemini 2.0 Pro Experimental to najnowszy eksperymentalny model AI o wielu modalnościach od Google, który w porównaniu do wcześniejszych wersji oferuje pewne poprawy jakości, szczególnie w zakresie wiedzy o świecie, kodu i długiego kontekstu."
-  },
-  "gemini-exp-1206": {
-    "description": "Gemini Exp 1206 to najnowszy eksperymentalny model AI Google w multimodalności, z zauważalnym poprawieniem jakości w porównaniu do wcześniejszych wersji."
   },
   "gemma-7b-it": {
     "description": "Gemma 7B nadaje się do przetwarzania zadań średniej i małej skali, łącząc efektywność kosztową."
@@ -1042,6 +1033,9 @@
   },
   "jina-deepsearch-v1": {
     "description": "Głębokie wyszukiwanie łączy wyszukiwanie w sieci, czytanie i wnioskowanie, umożliwiając kompleksowe badania. Możesz to traktować jako agenta, który przyjmuje Twoje zadania badawcze - przeprowadza szerokie poszukiwania i wielokrotne iteracje, zanim poda odpowiedź. Proces ten obejmuje ciągłe badania, wnioskowanie i rozwiązywanie problemów z różnych perspektyw. To zasadniczo różni się od standardowych dużych modeli, które generują odpowiedzi bezpośrednio z wstępnie wytrenowanych danych oraz od tradycyjnych systemów RAG, które polegają na jednorazowym powierzchownym wyszukiwaniu."
+  },
+  "kimi-latest": {
+    "description": "Produkt Kimi Smart Assistant korzysta z najnowszego modelu Kimi, który może zawierać cechy jeszcze niestabilne. Obsługuje zrozumienie obrazów i automatycznie wybiera model 8k/32k/128k jako model rozliczeniowy w zależności od długości kontekstu żądania."
   },
   "learnlm-1.5-pro-experimental": {
     "description": "LearnLM to eksperymentalny model językowy, specyficzny dla zadań, przeszkolony zgodnie z zasadami nauki o uczeniu się, który może przestrzegać systemowych instrukcji w scenariuszach nauczania i uczenia się, pełniąc rolę eksperta mentora."
@@ -1358,6 +1352,9 @@
   "moonshot-v1-8k-vision-preview": {
     "description": "Model wizualny Kimi (w tym moonshot-v1-8k-vision-preview/moonshot-v1-32k-vision-preview/moonshot-v1-128k-vision-preview itp.) potrafi rozumieć treść obrazów, w tym teksty na obrazach, kolory obrazów i kształty obiektów."
   },
+  "moonshot-v1-auto": {
+    "description": "Moonshot V1 Auto może wybierać odpowiedni model w zależności od liczby tokenów zajmowanych przez bieżący kontekst."
+  },
   "nousresearch/hermes-2-pro-llama-3-8b": {
     "description": "Hermes 2 Pro Llama 3 8B to ulepszona wersja Nous Hermes 2, zawierająca najnowsze wewnętrznie opracowane zbiory danych."
   },
@@ -1578,6 +1575,9 @@
     "description": "Zaawansowany produkt wyszukiwania wspierający kontekst wyszukiwania, oferujący zaawansowane zapytania i śledzenie."
   },
   "sonar-reasoning": {
+    "description": "Nowy produkt API wspierany przez model wnioskowania DeepSeek."
+  },
+  "sonar-reasoning-pro": {
     "description": "Nowy produkt API wspierany przez model wnioskowania DeepSeek."
   },
   "step-1-128k": {

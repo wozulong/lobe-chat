@@ -2,6 +2,181 @@
 
 # Changelog
 
+### [Version 1.61.4](https://github.com/lobehub/lobe-chat/compare/v1.61.3...v1.61.4)
+
+<sup>Released on **2025-02-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve perplexity models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve perplexity models, closes [#6307](https://github.com/lobehub/lobe-chat/issues/6307) ([c99908d](https://github.com/lobehub/lobe-chat/commit/c99908d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.61.3](https://github.com/lobehub/lobe-chat/compare/v1.61.2...v1.61.3)
+
+<sup>Released on **2025-02-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve error content and console error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve error content and console error, closes [#6305](https://github.com/lobehub/lobe-chat/issues/6305) ([6a35f55](https://github.com/lobehub/lobe-chat/commit/6a35f55))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.61.2](https://github.com/lobehub/lobe-chat/compare/v1.61.1...v1.61.2)
+
+<sup>Released on **2025-02-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add `kimi-latest` for Moonshot.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add `kimi-latest` for Moonshot, closes [#6295](https://github.com/lobehub/lobe-chat/issues/6295) ([4fb98da](https://github.com/lobehub/lobe-chat/commit/4fb98da))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.61.1](https://github.com/lobehub/lobe-chat/compare/v1.61.0...v1.61.1)
+
+<sup>Released on **2025-02-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve serveral error code.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve serveral error code, closes [#6299](https://github.com/lobehub/lobe-chat/issues/6299) ([352cb90](https://github.com/lobehub/lobe-chat/commit/352cb90))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 1.61.0](https://github.com/lobehub/lobe-chat/compare/v1.60.9...v1.61.0)
+
+<sup>Released on **2025-02-18**</sup>
+
+#### ✨ Features
+
+- **misc**: Support google vertex ai as a new provider.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Try to fix pglite worker.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support google vertex ai as a new provider, closes [#4487](https://github.com/lobehub/lobe-chat/issues/4487) ([a0a9592](https://github.com/lobehub/lobe-chat/commit/a0a9592))
+
+#### What's fixed
+
+- **misc**: Try to fix pglite worker, closes [#6169](https://github.com/lobehub/lobe-chat/issues/6169) ([b3f4f13](https://github.com/lobehub/lobe-chat/commit/b3f4f13))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.60.9](https://github.com/lobehub/lobe-chat/compare/v1.60.8...v1.60.9)
+
+<sup>Released on **2025-02-18**</sup>
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.60.8](https://github.com/lobehub/lobe-chat/compare/v1.60.7...v1.60.8)
+
+<sup>Released on **2025-02-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Sync chat limit.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Sync chat limit, closes [#6207](https://github.com/lobehub/lobe-chat/issues/6207) ([cc2f536](https://github.com/lobehub/lobe-chat/commit/cc2f536))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.60.7](https://github.com/lobehub/lobe-chat/compare/v1.60.6...v1.60.7)
 
 <sup>Released on **2025-02-17**</sup>

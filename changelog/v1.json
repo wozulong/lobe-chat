@@ -1,6 +1,54 @@
 [
   {
     "children": {
+      "improvements": ["Improve perplexity models."]
+    },
+    "date": "2025-02-18",
+    "version": "1.61.4"
+  },
+  {
+    "children": {
+      "improvements": ["Improve error content and console error."]
+    },
+    "date": "2025-02-18",
+    "version": "1.61.3"
+  },
+  {
+    "children": {
+      "improvements": ["Add kimi-latest for Moonshot."]
+    },
+    "date": "2025-02-18",
+    "version": "1.61.2"
+  },
+  {
+    "children": {
+      "improvements": ["Improve serveral error code."]
+    },
+    "date": "2025-02-18",
+    "version": "1.61.1"
+  },
+  {
+    "children": {
+      "features": ["Support google vertex ai as a new provider."],
+      "fixes": ["Try to fix pglite worker."]
+    },
+    "date": "2025-02-18",
+    "version": "1.61.0"
+  },
+  {
+    "children": {},
+    "date": "2025-02-18",
+    "version": "1.60.9"
+  },
+  {
+    "children": {
+      "improvements": ["Sync chat limit."]
+    },
+    "date": "2025-02-18",
+    "version": "1.60.8"
+  },
+  {
+    "children": {
       "improvements": ["Remove deprecated gemini models, update MiniMax models."]
     },
     "date": "2025-02-17",

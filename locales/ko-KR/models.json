@@ -371,9 +371,6 @@
   "abab6.5t-chat": {
     "description": "중국어 캐릭터 대화 시나리오에 최적화되어 있으며, 유창하고 중국어 표현 습관에 맞는 대화 생성 능력을 제공합니다."
   },
-  "abab7-chat-preview": {
-    "description": "abab6.5 시리즈 모델에 비해 긴 글, 수학, 작문 등에서 능력이 크게 향상되었습니다."
-  },
   "accounts/fireworks/models/deepseek-r1": {
     "description": "DeepSeek-R1은 최첨단 대형 언어 모델로, 강화 학습과 콜드 스타트 데이터를 최적화하여 뛰어난 추론, 수학 및 프로그래밍 성능을 제공합니다."
   },
@@ -728,6 +725,9 @@
   "gemini-1.0-pro-latest": {
     "description": "Gemini 1.0 Pro는 Google의 고성능 AI 모델로, 광범위한 작업 확장을 위해 설계되었습니다."
   },
+  "gemini-1.5-flash": {
+    "description": "Gemini 1.5 Flash는 Google의 최신 다중 모달 AI 모델로, 빠른 처리 능력을 갖추고 있으며 텍스트, 이미지 및 비디오 입력을 지원하여 다양한 작업에 효율적으로 확장할 수 있습니다."
+  },
   "gemini-1.5-flash-001": {
     "description": "Gemini 1.5 Flash 001은 효율적인 다중 모달 모델로, 광범위한 응용 프로그램 확장을 지원합니다."
   },
@@ -767,23 +767,14 @@
   "gemini-2.0-flash-001": {
     "description": "Gemini 2.0 Flash는 뛰어난 속도, 원주율 도구 사용, 다중 모달 생성 및 1M 토큰 문맥 창을 포함한 차세대 기능과 개선 사항을 제공합니다."
   },
-  "gemini-2.0-flash-exp": {
-    "description": "Gemini 2.0 Flash Exp는 Google의 최신 실험적 다중 모달 AI 모델로, 차세대 기능, 뛰어난 속도, 네이티브 도구 호출 및 다중 모달 생성을 갖추고 있습니다."
-  },
   "gemini-2.0-flash-lite-preview-02-05": {
     "description": "비용 효율성과 낮은 지연 시간 등을 목표로 최적화된 Gemini 2.0 Flash 모델입니다."
   },
   "gemini-2.0-flash-thinking-exp-01-21": {
     "description": "Gemini 2.0 Flash Exp는 Google의 최신 실험적 다중 모드 AI 모델로, 차세대 기능, 뛰어난 속도, 네이티브 도구 호출 및 다중 모드 생성을 제공합니다."
   },
-  "gemini-2.0-flash-thinking-exp-1219": {
-    "description": "Gemini 2.0 Flash Exp는 Google의 최신 실험적 다중 모드 AI 모델로, 차세대 기능, 뛰어난 속도, 네이티브 도구 호출 및 다중 모드 생성을 제공합니다."
-  },
   "gemini-2.0-pro-exp-02-05": {
     "description": "Gemini 2.0 Pro Experimental은 Google의 최신 실험적 다중 모달 AI 모델로, 이전 버전과 비교하여 품질이 향상되었습니다. 특히 세계 지식, 코드 및 긴 문맥에 대해 개선되었습니다."
-  },
-  "gemini-exp-1206": {
-    "description": "Gemini Exp 1206은 Google의 최신 실험적 다중 모달 AI 모델로, 이전 버전에 비해 품질이 개선되었습니다."
   },
   "gemma-7b-it": {
     "description": "Gemma 7B는 중소 규모 작업 처리에 적합하며, 비용 효과성을 갖추고 있습니다."
@@ -1042,6 +1033,9 @@
   },
   "jina-deepsearch-v1": {
     "description": "딥 서치는 웹 검색, 독서 및 추론을 결합하여 포괄적인 조사를 수행합니다. 연구 작업을 수용하는 에이전트로 생각할 수 있으며, 광범위한 검색을 수행하고 여러 번 반복한 후에야 답변을 제공합니다. 이 과정은 지속적인 연구, 추론 및 다양한 각도에서 문제를 해결하는 것을 포함합니다. 이는 사전 훈련된 데이터에서 직접 답변을 생성하는 표준 대형 모델 및 일회성 표면 검색에 의존하는 전통적인 RAG 시스템과 근본적으로 다릅니다."
+  },
+  "kimi-latest": {
+    "description": "Kimi 스마트 어시스턴트 제품은 최신 Kimi 대형 모델을 사용하며, 아직 안정되지 않은 기능이 포함될 수 있습니다. 이미지 이해를 지원하며, 요청의 맥락 길이에 따라 8k/32k/128k 모델을 청구 모델로 자동 선택합니다."
   },
   "learnlm-1.5-pro-experimental": {
     "description": "LearnLM은 학습 과학 원칙에 맞춰 훈련된 실험적이고 특정 작업에 특화된 언어 모델로, 교육 및 학습 환경에서 시스템 지침을 따르며 전문가 멘토 역할을 수행합니다."
@@ -1358,6 +1352,9 @@
   "moonshot-v1-8k-vision-preview": {
     "description": "Kimi 시각 모델(예: moonshot-v1-8k-vision-preview/moonshot-v1-32k-vision-preview/moonshot-v1-128k-vision-preview 등)은 이미지 내용을 이해할 수 있으며, 이미지 텍스트, 이미지 색상 및 물체 형태 등을 포함합니다."
   },
+  "moonshot-v1-auto": {
+    "description": "Moonshot V1 Auto는 현재 맥락에서 사용되는 토큰 수에 따라 적합한 모델을 선택할 수 있습니다."
+  },
   "nousresearch/hermes-2-pro-llama-3-8b": {
     "description": "Hermes 2 Pro Llama 3 8B는 Nous Hermes 2의 업그레이드 버전으로, 최신 내부 개발 데이터 세트를 포함하고 있습니다."
   },
@@ -1578,6 +1575,9 @@
     "description": "고급 쿼리 및 후속 작업을 지원하는 검색 맥락 기반의 고급 검색 제품입니다."
   },
   "sonar-reasoning": {
+    "description": "DeepSeek 추론 모델이 지원하는 새로운 API 제품입니다."
+  },
+  "sonar-reasoning-pro": {
     "description": "DeepSeek 추론 모델이 지원하는 새로운 API 제품입니다."
   },
   "step-1-128k": {
